@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6BD9E73D273D170E003C58AF /* SolarPanelsStylized.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6BD9E73C273D170E003C58AF /* SolarPanelsStylized.usdz */; };
+		6BD9E740273D1967003C58AF /* AirForce.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6BD9E73E273D1967003C58AF /* AirForce.usdz */; };
+		6BD9E746273D214B003C58AF /* cup_saucer_set.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 6BD9E745273D214B003C58AF /* cup_saucer_set.usdz */; };
 		6BFA663B273BE2D800E88AEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFA663A273BE2D800E88AEB /* AppDelegate.swift */; };
 		6BFA663D273BE2D800E88AEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFA663C273BE2D800E88AEB /* ViewController.swift */; };
 		6BFA663F273BE2D800E88AEB /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 6BFA663E273BE2D800E88AEB /* Experience.rcproject */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6BD9E73C273D170E003C58AF /* SolarPanelsStylized.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = SolarPanelsStylized.usdz; path = ../../../../../../Downloads/SolarPanelsStylized.usdz; sourceTree = "<group>"; };
+		6BD9E73F273D1967003C58AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Base; path = ../../../../../../Downloads/Base.lproj/AirForce.usdz; sourceTree = "<group>"; };
+		6BD9E745273D214B003C58AF /* cup_saucer_set.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = cup_saucer_set.usdz; path = ../../../../../../Downloads/cup_saucer_set.usdz; sourceTree = "<group>"; };
 		6BFA6637273BE2D800E88AEB /* BasicARStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicARStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BFA663A273BE2D800E88AEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6BFA663C273BE2D800E88AEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +106,9 @@
 			children = (
 				6BFA663A273BE2D800E88AEB /* AppDelegate.swift */,
 				6BFA663C273BE2D800E88AEB /* ViewController.swift */,
+				6BD9E745273D214B003C58AF /* cup_saucer_set.usdz */,
+				6BD9E73E273D1967003C58AF /* AirForce.usdz */,
+				6BD9E73C273D170E003C58AF /* SolarPanelsStylized.usdz */,
 				6BFA663E273BE2D800E88AEB /* Experience.rcproject */,
 				6BFA6640273BE2D800E88AEB /* Main.storyboard */,
 				6BFA6643273BE2DA00E88AEB /* Assets.xcassets */,
@@ -229,6 +238,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BD9E73D273D170E003C58AF /* SolarPanelsStylized.usdz in Resources */,
+				6BD9E740273D1967003C58AF /* AirForce.usdz in Resources */,
+				6BD9E746273D214B003C58AF /* cup_saucer_set.usdz in Resources */,
 				6BFA6647273BE2DA00E88AEB /* LaunchScreen.storyboard in Resources */,
 				6BFA6644273BE2DA00E88AEB /* Assets.xcassets in Resources */,
 				6BFA6642273BE2D800E88AEB /* Main.storyboard in Resources */,
@@ -295,6 +307,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		6BD9E73E273D1967003C58AF /* AirForce.usdz */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BD9E73F273D1967003C58AF /* Base */,
+			);
+			name = AirForce.usdz;
+			sourceTree = "<group>";
+		};
 		6BFA6640273BE2D800E88AEB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -437,6 +457,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48D2NNJWZU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -444,6 +465,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -466,6 +488,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48D2NNJWZU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -473,6 +496,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
